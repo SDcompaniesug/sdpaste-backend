@@ -1,0 +1,13 @@
+{
+  "name": "sdpaste-backend",
+  "version": "1.0.0",
+  "description": "JSON Pastebin API for SDPaste Android App",
+  "main": "api/pastes.js",
+  "scripts": {
+    "start": "node api/pastes.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
